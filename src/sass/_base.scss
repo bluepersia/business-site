@@ -1,0 +1,39 @@
+$color-primary: #1d1c3f;
+$color-primary-lighter: hsl(242, 38%, 28%);
+$color-accent: #d3b574;
+
+$font-title: "Open Sans", sans-serif;
+$font-headings: "Merriweather", serif;
+$font-body: "Montserrat", sans-serif;
+
+body 
+{
+    margin: 0;
+    font-family: $font-body;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h1 
+{
+    font-family: $font-title;
+}
+
+h2, h3, h4
+{
+    font-family: $font-headings;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child {
+    margin-top: 0;
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
